@@ -42,6 +42,7 @@ class _StorageIndex(object):
             filesystem='vdirsyncer.storage.filesystem.FilesystemStorage',
             http='vdirsyncer.storage.http.HttpStorage',
             singlefile='vdirsyncer.storage.singlefile.SingleFileStorage',
+            tuduxml='vdirsyncer.storage.tuduxml.TuduXMLStorage',
             remotestorage_contacts=(
                 'vdirsyncer.storage.remotestorage.RemoteStorageContacts'),
             remotestorage_calendars=(
